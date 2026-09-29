@@ -1,0 +1,26 @@
+{
+  "name": "helena-barem-beauty",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint app components lib",
+    "typecheck": "tsc --noEmit",
+    "optimize:images": "node scripts/optimize-assets.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.6",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.3.6",
+    "sharp": "^0.34.5",
+    "typescript": "^5"
+  }
+}
